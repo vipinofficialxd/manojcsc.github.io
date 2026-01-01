@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section class="container post">
+  <h2>{{ page.title }}</h2>
+  <p class="date">{{ page.date | date: "%d %B %Y" }}</p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.redirect_url %}
+  <a class="btn" href="{{ page.redirect_url }}" target="_blank">
+    View Full Details / Apply Online
+  </a>
+  {% endif %}
+</section>
