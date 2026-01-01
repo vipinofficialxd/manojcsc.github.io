@@ -35,7 +35,10 @@ body {
 }
 
 .hero {
-  background: url("../image/hero-bg.jpg") center/cover no-repeat;
+  background-image: url("/assets/images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 420px;
   display: flex;
   align-items: center;
