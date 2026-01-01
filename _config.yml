@@ -1,6 +1,4 @@
 title: MANOJ COMPUTERS & CYBER CAFE
 description: Computer Services, CSC, Online Forms, Xerox & Printing
-baseurl: ""
-url: "https://manojcsc.github.io"
 markdown: kramdown
 permalink: /posts/:title/
