@@ -125,6 +125,11 @@ body {
 .contact-form textarea {
   min-height: 120px;
 }
+.map-box {
+  margin-top: 15px;
+  border-radius: 6px;
+  overflow: hidden;
+}
 
 @media (max-width: 768px) {
   .contact-grid {
